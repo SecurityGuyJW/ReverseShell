@@ -4,20 +4,17 @@ Utilizing client server functionality we can send a file from one endpoint  to a
 
 ## How it works
 
-This script does a number establishes a number of connections between a client and a server to ensure the size, the message, and the location of the file is sent to where it needs to go.
-
 1. The first thing the script does is caculate the buffer of the file, this number is sent from the client to the server.
 
-2. Once the size of the file has been sent the client send the file to the server, 
+2. End point allocates file size and begins transfer. 
 
-3. Finally once the server takes the file of size x it will place it in a predetermined directory.
+3. End point saves file in an directory.
 
-4. The user must edit this directory to where they would like to set the path to. The script might fail if this directory does not exist.
+4. The user must edit this directory to where they would like to set the path to.
 
 5. A working internet connection is required to perform the file transfer.
 
 6. The user must know the extension of the particular file being sent, alternatively they can just name the file something abitrary and chnage the extention in the target system.
-
 
 
 ## Getting Started
@@ -43,4 +40,4 @@ Pycharm
 
 ## Authors
 
-**Juan Wagner** 
+**Juan A Wagner** - *Initial work* - [SPAWAR](https://www.linkedin.com/in/juanwagner/)
